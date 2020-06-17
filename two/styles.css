@@ -1,26 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
 
-/* Colors:
-
-#edf0f1 - off white
-#24252A - off black
-#0088a9 - hover blue
-
-*/
-
 * {
   margin: 0;
   padding: 0;
+  background-color: #1c2725;
 }
 
-body {
-  background-color: rebeccapurple;
-}
-
-a,
-li {
-  color: #edf0f1;
+li,
+a {
   text-decoration: none;
+  color: whitesmoke;
   font-size: 16px;
   font-family: "Monsterrat", sans-serif;
   font-weight: 500;
@@ -28,23 +17,28 @@ li {
 
 header {
   display: flex;
-  justify-content: space-evenly;
-  align-items: flex-end;
-  padding: 30px 5%;
-  background-color: #24252A;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px;
 }
 
 .logo {
   cursor: pointer;
+  margin-right: 300px;
+}
+
+.nav_links {
+  margin-right: 30px;
 }
 
 .nav_links li {
   list-style: none;
   display: inline-block;
-  padding: 15px;
+  padding: 20px;
 }
 
 .nav_links a:hover {
-  color: #0088a9;
-  border-bottom: 3px solid #0088a9;
+  color: rgba(245, 245, 245, 0.8);
+  border-bottom: 3px solid rgba(245, 245, 245, 0.8);
+  padding-bottom: 5px;
 }
